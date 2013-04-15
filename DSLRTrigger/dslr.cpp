@@ -33,8 +33,10 @@ void dslr::dslrIr()
         delayMicroseconds(11);
         digitalWrite(_irPin, LOW);
         delayMicroseconds(11);
-   } 
-    delayMicroseconds(7330); 
+   }
+   
+    delayMicroseconds(7330);
+    
     for(int i=0; i<16; i++) { 
         digitalWrite(_irPin, HIGH);
         delayMicroseconds(11);
@@ -42,7 +44,6 @@ void dslr::dslrIr()
          delayMicroseconds(11);
    }
 }
-    }
     
 void dslr::dslrFocas()
     {
