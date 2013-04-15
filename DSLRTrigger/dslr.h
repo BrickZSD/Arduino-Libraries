@@ -1,6 +1,7 @@
 /*
   dslr.h - Library for triggering the Canon EOS Rebal 
   Created by Andrew D. Ehrlich, April 11th, 2013
+  For questions email at aesound@gmail.com
 */
 
 #ifndef dslr_h

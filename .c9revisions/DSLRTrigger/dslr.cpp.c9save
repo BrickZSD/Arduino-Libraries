@@ -1,3 +1,4 @@
 {"ts":1366049498635,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1366049539892,"patch":[[{"diffs":[[1,"/*\r\n  canon.cpp - Library for triggering the Canon EOS Rebal \r\n  Created by Andrew D. Ehrlich, April 11th, 2013\r\n*/\r\n\r\n#include \"Arduino.h\"\r\n#include \"dslr_h\r\n\r\ndslr::dslr(int pin)\r\n "]],"start1":0,"start2":0,"length1":0,"length2":183}]],"length":183,"saved":false}
 {"contributors":[],"silentsave":false,"ts":1366055297124,"patch":[[{"diffs":[[0,"\r\n  "],[-1,"canon"],[1,"dslr"],[0,".cpp"]],"start1":2,"start2":2,"length1":13,"length2":12}]],"length":182,"saved":false}
+{"ts":1366055411913,"patch":[[{"diffs":[[0,", 2013\r\n"],[1,"  For questions email at aesound@gmail.com\r\n"],[0,"*/\r\n\r\n#i"]],"start1":104,"start2":104,"length1":16,"length2":60}]],"length":226,"saved":false}
