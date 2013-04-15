@@ -1,5 +1,5 @@
 /*
-  Canon.h - Library for triggering the Canon EOS Rebal 
+  dslr.h - Library for triggering the Canon EOS Rebal 
   Created by Andrew D. Ehrlich, April 11th, 2013
 */
 

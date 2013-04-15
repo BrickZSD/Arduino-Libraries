@@ -1,5 +1,5 @@
 /*
-  canon.cpp - Library for triggering the Canon EOS Rebal 
+  dslr.cpp - Library for triggering the Canon EOS Rebal 
   Created by Andrew D. Ehrlich, April 11th, 2013
 */
 
