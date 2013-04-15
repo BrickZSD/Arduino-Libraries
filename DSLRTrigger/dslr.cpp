@@ -7,5 +7,11 @@
 #include "Arduino.h"
 #include "dslr_h
 
-dslr::dslr(int pin)
+dslr::dslr(int irpin)
+dslr::dslr(int focusPin)
+dslr::dslr(int shutterPin)
+
+void dslr::dslrShoot()
+
+void dslr::dslrFocas()
  
