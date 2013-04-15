@@ -12,12 +12,14 @@
 class Canon
 {
     public:
-		canonIR (int pin);
-		canonFocas (int pin);
-		canonShutter (int pin);
+		canonIR (int irPin);
+		canonFocas (int focusPin);
+		canonShutter (int shutterPin);
 		void dslrShoot();
 		void dslrFocas();
 	private:
-		int _pin;
+		int _irPin;
+        int _focusPin;
+        int _shutterPin;
 };
 #endif
