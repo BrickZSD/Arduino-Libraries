@@ -6,7 +6,7 @@
 */
 
 #include "Arduino.h"
-#include "dslr_h
+#include "dslr_h"
 
 dslr::dslr(int irPin)
     {
