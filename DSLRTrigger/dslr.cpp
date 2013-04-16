@@ -16,13 +16,13 @@ dslr::dslr(int irPin)
     
 dslr::dslr(int focusPin)
     {
-        pinMode(focusPin);
+        pinMode(focusPin, OUTPUT);
         _focusPin = focusPin;
     }
     
 dslr::dslr(int shutterPin)
     {
-        pinMode(shutterPin);
+        pinMode(shutterPin, OUTPUT);
         _focusPin = focusPin;
     }
     
@@ -42,7 +42,7 @@ void dslr::canonIr()
         digitalWrite(_irPin, HIGH);
         delayMicroseconds(11);
         digitalWrite(_irPin, LOW);
-         delayMicroseconds(11);
+        delayMicroseconds(11);
    }
 }
     
