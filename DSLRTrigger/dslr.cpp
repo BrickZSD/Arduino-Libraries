@@ -2,6 +2,7 @@
   dslr.cpp - Library for triggering the Canon EOS Rebal 
   Created by Andrew D. Ehrlich, April 11th, 2013
   For questions email at aesound@gmail.com
+  v1.0
 */
 
 #include "Arduino.h"
