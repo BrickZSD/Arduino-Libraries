@@ -26,7 +26,7 @@ dslr::dslr(int shutterPin)
         _focusPin = focusPin;
     }
     
-void dslr::dslrIr()
+void dslr::canonIr()
     {
     //Infrared Trigger
     for(int i=0; i<16; i++) { 
@@ -46,14 +46,14 @@ void dslr::dslrIr()
    }
 }
     
-void dslr::dslrFocas()
+void dslr::canonFocas()
     {
         digitalWrite(_focusPin, HIGH);
         delay(1000);
         digitalWrite(_focusPin, LOW);
     }
     
-void dslr::dslrShoot()
+void dslr::canonShoot()
     {
         digitalWrite(_shutterPin, HIGH)
         delay(1000);

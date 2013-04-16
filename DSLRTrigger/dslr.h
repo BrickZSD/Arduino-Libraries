@@ -16,9 +16,9 @@ class Canon
 		canonIR (int irPin);
 		canonFocas (int focusPin);
 		canonShutter (int shutterPin);
-		void dslrShoot();
-		void dslrFocas();
-        void dslrIr();
+		void canonShoot();
+		void canonFocas();
+        void canonIr();
         
 	private:
 		int _irPin;
