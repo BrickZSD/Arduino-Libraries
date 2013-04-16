@@ -10,12 +10,12 @@
 
 #include "Arduino.h"
 
-class Canon
+class dslr
 {
     public:
-		canonIR (int irPin);
-		canonFocas (int focusPin);
-		canonShutter (int shutterPin);
+		dslr (int irPin);
+		dslr (int focusPin);
+		dslr (int shutterPin);
 		void canonShoot();
 		void canonFocas();
         void canonIr();
