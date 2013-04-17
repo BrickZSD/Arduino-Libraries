@@ -8,19 +8,19 @@
 #include "Arduino.h"
 #include "dslr.h"
 
-dslr::dslr(int irPin)
+dslr::IR (int irPin)
     {
         pinMode(irPin, OUTPUT);
         _irPin = irPin;
     }
     
-dslr::dslr(int focusPin)
+dslr::Focus (int focusPin)
     {
         pinMode(focusPin, OUTPUT);
         _focusPin = focusPin;
     }
     
-dslr::dslr(int shutterPin)
+dslr::Shutter(int shutterPin)
     {
         pinMode(shutterPin, OUTPUT);
         _shutterPin = shutterPin;
