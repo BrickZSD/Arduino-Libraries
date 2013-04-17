@@ -1,4 +1,4 @@
-/*
+ /*
   dslr.h - Library for triggering the Canon EOS Rebal 
   Created by Andrew D. Ehrlich, April 11th, 2013
   For questions email at aesound@gmail.com
@@ -13,9 +13,9 @@
 class dslr
 {
     public:
-		dslr (int irPin);
-		dslr (int focusPin);
-		dslr (int shutterPin);
+		dslr (int irPin;)
+		dslr (int focusPin;)
+		dslr (int shutterPinl;)
 		void canonShoot();
 		void canonFocas();
     void canonIr();
