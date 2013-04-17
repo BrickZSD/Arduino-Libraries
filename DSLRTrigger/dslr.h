@@ -18,11 +18,11 @@ class dslr
 		dslr (int shutterPin);
 		void canonShoot();
 		void canonFocas();
-        void canonIr();
+    void canonIr();
         
 	private:
 		int _irPin;
-        int _focusPin;
-        int _shutterPin;
+    int _focusPin;
+    int _shutterPin;
 };
 #endif

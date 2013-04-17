@@ -6,7 +6,7 @@
 */
 
 #include "Arduino.h"
-#include "dslr_h"
+#include "dslr.h"
 
 dslr::dslr(int irPin)
     {
@@ -23,7 +23,7 @@ dslr::dslr(int focusPin)
 dslr::dslr(int shutterPin)
     {
         pinMode(shutterPin, OUTPUT);
-        _focusPin = focusPin;
+        _shutterPin = shutterPin;
     }
     
 void dslr::canonIr()
