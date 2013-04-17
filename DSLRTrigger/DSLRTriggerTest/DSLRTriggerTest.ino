@@ -1,5 +1,5 @@
 #include <dslr.h>
-irPin = 1;
+int irPin = 1;
 int focusPin = 2;
 int shutterPin = 3;
 

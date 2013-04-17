@@ -8,13 +8,13 @@
 #include "Arduino.h"
 #include "dslr.h"
 
-dslr::IR (int irPin)
+dslr::IR(int irPin)
     {
         pinMode(irPin, OUTPUT);
         _irPin = irPin;
     }
     
-dslr::Focus (int focusPin)
+dslr::Focus(int focusPin)
     {
         pinMode(focusPin, OUTPUT);
         _focusPin = focusPin;
