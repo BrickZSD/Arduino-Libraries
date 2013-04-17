@@ -13,9 +13,10 @@
 class dslr
 {
     public:
-		dslr (int irPin;)
-		dslr (int focusPin;)
-		dslr (int shutterPinl;)
+    
+		int dslr (int irPin);
+		int dslr (int focusPin);
+		int dslr (int shutterPin);
 		void canonShoot();
 		void canonFocas();
     void canonIr();
