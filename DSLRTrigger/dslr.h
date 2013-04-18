@@ -14,9 +14,16 @@ class dslr
 {
     public:
     
-		IR (int irPin);
+		/*IR (int irPin);
 		Focus (int focusPin);
 		Shutter (int shutterPin);
+        http://playground.arduino.cc/Code/Library*/
+        irPin();
+        ~irPin();
+        focusPin
+        ~focusPin();
+        shutterPin();
+        ~shutterPin();
 		void canonShoot();
 		void canonFocas();
     void canonIr();
