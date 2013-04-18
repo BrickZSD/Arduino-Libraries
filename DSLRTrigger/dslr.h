@@ -17,7 +17,8 @@ class dslr
 		/*IR (int irPin);
 		Focus (int focusPin);
 		Shutter (int shutterPin);
-        http://playground.arduino.cc/Code/Library*/
+        http://playground.arduino.cc/Code/Library
+        http://playground.arduino.cc/Main/FunctionLibrary*/
         irPin();
         ~irPin();
         focusPin
