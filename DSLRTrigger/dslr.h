@@ -10,8 +10,7 @@
 
 #include "Arduino.h"
 
-class dslr
-{
+class dslr {
     public:
     
 		/*IR (int irPin);
@@ -21,7 +20,7 @@ class dslr
         http://playground.arduino.cc/Main/FunctionLibrary*/
         irPin();
         ~irPin();
-        focusPin
+        focusPin();
         ~focusPin();
         shutterPin();
         ~shutterPin();
