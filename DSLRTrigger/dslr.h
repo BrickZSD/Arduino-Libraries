@@ -10,27 +10,27 @@
 
 #include "Arduino.h"
 
-class dslr {
+class dslrClass{
     public:
-    
-		/*IR (int irPin);
-		Focus (int focusPin);
-		Shutter (int shutterPin);
+      /*
         http://playground.arduino.cc/Code/Library
         http://playground.arduino.cc/Main/FunctionLibrary*/
-        irPin();
-        ~irPin();
-        focusPin();
-        ~focusPin();
-        shutterPin();
-        ~shutterPin();
-		void canonShoot();
-		void canonFocas();
-    void canonIr();
+    dslrClass();
+    dslrClass();
+    dslrClass();
+		void canonShoot(unsigned int shutterPin);
+		void canonFocas(unsigned int focusPin);
+    void canonIr(unsigned int irPin);
         
 	private:
+    unsigned int irPin;
+    unsigned int focusPin;
+    unsigned int shutterPin;
 		int _irPin;
     int _focusPin;
     int _shutterPin;
 };
+
+//extern dslrClass;
+
 #endif
